@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="Server data">
+		        <EditTextPreference
+		                android:name="Host"
+		                android:summary="your pooled mining host"
+		                android:defaultValue="Nothing"
+		                android:title="Host"
+		                android:key="editTextPrefHost" />
+		         <EditTextPreference
+		                android:name="Port"
+		                android:summary="your pooled mining server port"
+		                android:defaultValue="8332"
+		                android:title="Port"
+		                android:key="editTextPrefPort" />
+        </PreferenceCategory>
+        <PreferenceCategory
+                android:title="Your data">
+		        <EditTextPreference
+		                android:name="Username"
+		                android:summary="your pooled mining username"
+		                android:defaultValue="Nothing"
+		                android:title="Username"
+		                android:key="editTextPrefUser" />
+		         <EditTextPreference
+		                android:name="Password"
+		                android:summary="your pooled mining password"
+		                android:defaultValue="Nothing"
+		                android:title="Password"
+		                android:key="editTextPrefPass" />
+         </PreferenceCategory>
+</PreferenceScreen>
